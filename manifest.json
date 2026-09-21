@@ -1,0 +1,15 @@
+{
+  "name": "code-style",
+  "repo": "ilinchunjie/code-style",
+  "ref": "main",
+  "common": {
+    "id": "code-style-common",
+    "path": "plugins/code-style-common/skills/code-style-common"
+  },
+  "languages": {
+    "csharp": {
+      "id": "code-style-csharp",
+      "path": "plugins/code-style-csharp/skills/code-style-csharp"
+    }
+  }
+}
