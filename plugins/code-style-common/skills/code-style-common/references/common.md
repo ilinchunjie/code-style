@@ -8,6 +8,12 @@ Apply these rules in every language. If a language pack restates a rule, the lan
 - Match existing names, folders, and abstractions. Do not introduce a second style.
 - When deleting code, also delete now-dead references, imports, and tests.
 
+## Line endings
+
+- Use LF (`\n`) for every text file. Do not use CRLF (`\r\n`) or CR.
+- New files, edits, `.gitattributes`, and generated text must stay LF.
+- Do not convert a file to CRLF to match a local OS default.
+
 ## Parameter names
 
 - Do not abbreviate parameter names. Use full words (`button` not `btn`, `count` not `cnt`, `index` not `idx`).
